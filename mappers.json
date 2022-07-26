@@ -1,0 +1,29 @@
+{
+  "company_location": {
+    "North America": 0.0,
+    "South America": 0.2,
+    "Africa": 0.4,
+    "Europe": 0.6,
+    "Asia": 0.8,
+    "Oceania": 1.0
+  },
+  "company_size": {
+    "Small": 0.0,
+    "Medium": 0.5,
+    "Large": 1.0
+  },
+  "experience_level": {
+    "Entry-level / Junior": 0.0,
+    "Mid-level / Intermediate": 0.3333333333333333,
+    "Senior-level / Expert": 0.6666666666666666,
+    "Executive-level / Director": 1.0
+  },
+  "job_popularity": {
+    "Manager": 0.0,
+    "ML Engineer": 0.1875,
+    "Other": 0.2265625,
+    "Data Analyst": 0.640625,
+    "Data Scientist": 0.953125,
+    "Data Engineer": 1.0
+  }
+}
