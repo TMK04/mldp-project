@@ -25,5 +25,14 @@
     "Data Analyst": 0.640625,
     "Data Scientist": 0.953125,
     "Data Engineer": 1.0
+  },
+  "remote_ratio": {
+    "Less than 20%": 0.0,
+    "Around 50%": 0.5,
+    "More than 80%": 1.0
+  },
+  "ricl": {
+    "Yes": true,
+    "No": false
   }
 }
