@@ -1,8 +1,9 @@
 from IPython.display import display
-import pandas as pd
+from numpy import e as E, power
+from pandas import DataFrame
 
 def displayAsDF(ndarray, **kwargs):
-  display(pd.DataFrame(ndarray, **kwargs))
+  display(DataFrame(ndarray, **kwargs))
 
 # Prevent default print
 pdp = display
@@ -11,3 +12,6 @@ vcs = lambda ndarray, ascending=True: ndarray.value_counts().sort_index(ascendin
 
 displayVcs = lambda ndarray: displayAsDF(vcs(ndarray))
 displayCols = lambda df: displayAsDF(df.columns, columns=["col"])
+
+# Will be needed to "un-log" logged predictions for presenting scores
+e = lambda y: power(E, y)

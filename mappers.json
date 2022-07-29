@@ -8,9 +8,9 @@
     "Oceania": 1.0
   },
   "company_size": {
-    "Small": 0.0,
-    "Medium": 0.5,
-    "Large": 1.0
+    "Less than 50 employees": 0.0,
+    "50 to 250 employees": 0.5,
+    "More than 250 employees": 1.0
   },
   "experience_level": {
     "Entry-level / Junior": 0.0,
@@ -28,7 +28,7 @@
   },
   "remote_ratio": {
     "Less than 20%": 0.0,
-    "Around 50%": 0.5,
+    "20% to 80%": 0.5,
     "More than 80%": 1.0
   },
   "ricl": {
