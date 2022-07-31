@@ -2,6 +2,8 @@ from IPython.display import display
 from numpy import e as E, power
 from pandas import DataFrame
 
+y_col = "salary_in_usd"
+
 def displayAsDF(ndarray, **kwargs):
   display(DataFrame(ndarray, **kwargs))
 
