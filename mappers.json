@@ -20,10 +20,10 @@
   },
   "job_popularity": {
     "Manager": 0.0,
-    "ML Engineer": 0.1875,
-    "Other": 0.2265625,
-    "Data Analyst": 0.640625,
-    "Data Scientist": 0.953125,
+    "ML Engineer": 0.18253968253968253,
+    "Other": 0.1984126984126984,
+    "Data Analyst": 0.6507936507936508,
+    "Data Scientist": 0.9444444444444444,
     "Data Engineer": 1.0
   },
   "remote_ratio": {
